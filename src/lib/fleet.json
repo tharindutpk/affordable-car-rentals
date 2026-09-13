@@ -1,0 +1,276 @@
+[
+  {
+    "slug": "toyota-prius-c-2014",
+    "title": "Toyota Prius C",
+    "year": 2014,
+    "weeklyRate": 239,
+    "seats": 5,
+    "fuel": "Hybrid",
+    "transmission": "Automatic",
+    "body": "Hatchback",
+    "categories": [
+      "rideshare",
+      "uber-green",
+      "private-hire"
+    ],
+    "availability": "available",
+    "rentToOwn": true,
+    "note": "The cheapest car to run in the fleet. Around 4.5L/100km in Sydney traffic."
+  },
+  {
+    "slug": "honda-civic-2011",
+    "title": "Honda Civic",
+    "year": 2011,
+    "weeklyRate": 230,
+    "seats": 5,
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "body": "Sedan",
+    "categories": [
+      "rideshare",
+      "private-hire"
+    ],
+    "availability": "available",
+    "rentToOwn": true,
+    "note": "Lowest weekly rate we offer. Roomy back seat for a car this size."
+  },
+  {
+    "slug": "honda-insight-hybrid-2012",
+    "title": "Honda Insight Hybrid",
+    "year": 2012,
+    "weeklyRate": 230,
+    "seats": 5,
+    "fuel": "Hybrid",
+    "transmission": "Automatic",
+    "body": "Hatchback",
+    "categories": [
+      "rideshare",
+      "uber-green",
+      "private-hire"
+    ],
+    "availability": "available",
+    "rentToOwn": true,
+    "note": "Hybrid running costs at the lowest rate in the fleet."
+  },
+  {
+    "slug": "hyundai-i30-2008",
+    "title": "Hyundai i30",
+    "year": 2008,
+    "weeklyRate": 235,
+    "seats": 5,
+    "fuel": "Diesel",
+    "transmission": "Automatic",
+    "body": "Hatchback",
+    "categories": [
+      "private-hire",
+      "rideshare"
+    ],
+    "availability": "available",
+    "rentToOwn": true,
+    "note": "Diesel economy on the highway. Good second car for a family."
+  },
+  {
+    "slug": "toyota-prius-c-2012",
+    "title": "Toyota Prius C",
+    "year": 2012,
+    "weeklyRate": 240,
+    "seats": 5,
+    "fuel": "Hybrid",
+    "transmission": "Automatic",
+    "body": "Hatchback",
+    "categories": [
+      "rideshare",
+      "uber-green",
+      "private-hire"
+    ],
+    "availability": "available",
+    "rentToOwn": false,
+    "note": "Same car as the 2014, slightly older, five dollars a week cheaper."
+  },
+  {
+    "slug": "toyota-prius-c-itech-2012",
+    "title": "Toyota Prius C i-Tech",
+    "year": 2012,
+    "weeklyRate": 250,
+    "seats": 5,
+    "fuel": "Hybrid",
+    "transmission": "Automatic",
+    "body": "Hatchback",
+    "categories": [
+      "rideshare",
+      "uber-green",
+      "private-hire"
+    ],
+    "availability": "on-hire",
+    "rentToOwn": false,
+    "note": "i-Tech trim adds satnav and a reversing camera."
+  },
+  {
+    "slug": "citroen-c4-2012",
+    "title": "Citroen C4 B7 Series",
+    "year": 2012,
+    "weeklyRate": 250,
+    "seats": 5,
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "body": "Sedan",
+    "categories": [
+      "private-hire"
+    ],
+    "availability": "available",
+    "rentToOwn": false,
+    "note": "Comfortable long-distance car. Popular as a personal rental."
+  },
+  {
+    "slug": "honda-insight-2011",
+    "title": "Honda Insight",
+    "year": 2011,
+    "weeklyRate": 260,
+    "seats": 5,
+    "fuel": "Hybrid",
+    "transmission": "Automatic",
+    "body": "Sedan",
+    "categories": [
+      "rideshare",
+      "uber-green",
+      "private-hire"
+    ],
+    "availability": "available",
+    "rentToOwn": false,
+    "note": "Sedan body with a boot passengers can actually fit luggage into."
+  },
+  {
+    "slug": "toyota-camry-hybrid-2014",
+    "title": "Toyota Camry Hybrid",
+    "year": 2014,
+    "weeklyRate": 289,
+    "seats": 5,
+    "fuel": "Hybrid",
+    "transmission": "Automatic",
+    "body": "Sedan",
+    "categories": [
+      "rideshare",
+      "uber-green",
+      "private-hire"
+    ],
+    "availability": "available",
+    "rentToOwn": true,
+    "note": "The most requested rideshare car we stock. Quiet, roomy, cheap to run."
+  },
+  {
+    "slug": "toyota-camry-50-series-2013",
+    "title": "Toyota Camry 50 Series",
+    "year": 2013,
+    "weeklyRate": 289,
+    "seats": 5,
+    "fuel": "Hybrid",
+    "transmission": "Automatic",
+    "body": "Sedan",
+    "categories": [
+      "rideshare",
+      "uber-green",
+      "private-hire"
+    ],
+    "availability": "on-hire",
+    "rentToOwn": false,
+    "note": "Same drivetrain as the 2014 Camry Hybrid."
+  },
+  {
+    "slug": "holden-captiva-7-2017",
+    "title": "Holden Captiva 7",
+    "year": 2017,
+    "weeklyRate": 300,
+    "seats": 7,
+    "fuel": "Diesel",
+    "transmission": "Automatic",
+    "body": "Wagon",
+    "categories": [
+      "uber-xl",
+      "private-hire"
+    ],
+    "availability": "available",
+    "rentToOwn": false,
+    "note": "Seven seats and the newest car in the fleet. Qualifies you for UberXL fares."
+  },
+  {
+    "slug": "toyota-kluger-kx-2013",
+    "title": "Toyota Kluger KX",
+    "year": 2013,
+    "weeklyRate": 300,
+    "seats": 5,
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "body": "Wagon",
+    "categories": [
+      "uber-xl",
+      "private-hire"
+    ],
+    "availability": "available",
+    "rentToOwn": false,
+    "note": "Big wagon boot. Handles airport runs and bulky deliveries."
+  },
+  {
+    "slug": "volkswagen-transporter-2015",
+    "title": "Volkswagen Transporter",
+    "year": 2015,
+    "weeklyRate": 300,
+    "seats": 2,
+    "fuel": "Diesel",
+    "transmission": "Automatic",
+    "body": "Van",
+    "categories": [
+      "vans-utes"
+    ],
+    "availability": "available",
+    "rentToOwn": false,
+    "note": "One tonne van. The standard courier and parcel delivery vehicle."
+  },
+  {
+    "slug": "hyundai-iload-2012",
+    "title": "Hyundai iLoad",
+    "year": 2012,
+    "weeklyRate": 300,
+    "seats": 5,
+    "fuel": "Diesel",
+    "transmission": "Automatic",
+    "body": "Van",
+    "categories": [
+      "vans-utes"
+    ],
+    "availability": "available",
+    "rentToOwn": false,
+    "note": "Crew van with a long load bay. Good for removals and trade work."
+  },
+  {
+    "slug": "toyota-hiace-2009",
+    "title": "Toyota HiAce",
+    "year": 2009,
+    "weeklyRate": 375,
+    "seats": 3,
+    "fuel": "Diesel",
+    "transmission": "Automatic",
+    "body": "Van",
+    "categories": [
+      "vans-utes"
+    ],
+    "availability": "available",
+    "rentToOwn": false,
+    "note": "Two tonne van for the heaviest jobs. Three across the front."
+  },
+  {
+    "slug": "holden-caprice-2015",
+    "title": "Holden Caprice",
+    "year": 2015,
+    "weeklyRate": 399,
+    "seats": 5,
+    "fuel": "Petrol",
+    "transmission": "Automatic",
+    "body": "Sedan",
+    "categories": [
+      "private-hire"
+    ],
+    "availability": "available",
+    "rentToOwn": false,
+    "note": "Full size sedan. Rented mostly for weddings, formals and airport work."
+  }
+]

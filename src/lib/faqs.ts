@@ -1,0 +1,105 @@
+export interface FaqItem { q: string; a: string; }
+export interface FaqGroup { name: string; items: FaqItem[]; }
+
+export const FAQ_GROUPS: FaqGroup[] = [
+  {
+    name: "Renting from us",
+    items: [
+      { q: "How much is the bond and when do I get it back?",
+        a: "The minimum bond is $500. It's refunded within 21 days of your rental ending, provided there are no outstanding dues or damage to the vehicle. The 21 days gives us time for any fines or tolls to come through." },
+      { q: "Can I rent if I'm under 25?",
+        a: "No. For insurance purposes you must be at least 25 years old to rent from us." },
+      { q: "Do you check my credit or financial history?",
+        a: "No. We don't require financial history. Anyone can rent a car from Affordable Car Rentals." },
+      { q: "What's the holding deposit for?",
+        a: "A $100 holding deposit confirms your reservation and takes the car off the market. It goes towards your bond when you pick the vehicle up." },
+      { q: "Do I need to pay for tolls?",
+        a: "Yes, all tolls are the customer's responsibility. You can pay using a Linkt account or e-tag." },
+      { q: "What if I don't have a Linkt account or e-tag?",
+        a: "If you don't provide one, you'll be charged the toll amount plus a $10 management fee on top of your weekly rent. This needs to be provided when you pick up the vehicle." },
+      { q: "Are kilometres really unlimited?",
+        a: "Yes, for rideshare and van rentals, up to a maximum distance of 250km from the Sydney CBD. You won't incur extra costs for driving long distances within that." },
+      { q: "How does that compare to other rental companies?",
+        a: "Other companies charge up to 20 cents per kilometre. Ours are unlimited within the 250km radius, which is a substantial difference if you're driving full time." },
+      { q: "What if I don't like the car?",
+        a: "We'll swap it for another vehicle at no cost to you." },
+      { q: "Who handles servicing and repairs?",
+        a: "We do. Every rental car is maintained by our team and kept in working condition throughout your hire." },
+    ],
+  },
+  {
+    name: "Rideshare: Uber and Didi",
+    items: [
+      { q: "What makes your rideshare rentals right for Uber and Didi drivers?",
+        a: "We stock hybrid and fuel-efficient cars suited to rideshare work. All vehicles are Uber-approved and come insured, maintained and registered." },
+      { q: "What documentation do I get at pickup?",
+        a: "We provide an insurance document so you can start driving for Uber or Didi straight away." },
+      { q: "What types of vehicles are available?",
+        a: "Fuel-efficient sedans and hybrid models, from compact hatchbacks up to the Camry Hybrid." },
+      { q: "Do your cars meet Uber's standards?",
+        a: "Yes, all our rideshare vehicles meet Uber's vehicle standards and are fully approved." },
+      { q: "What is Uber Green and can I qualify?",
+        a: "Uber Green lets riders request a hybrid or electric car at the same fare as UberX. If you're driving a petrol hybrid, plug-in hybrid or fully electric car, you're automatically eligible — there's nothing to apply for. Every hybrid in our fleet qualifies." },
+      { q: "Will I still get UberX trips on Uber Green?",
+        a: "Yes. Green trips come in addition to UberX and any other ride types you're already eligible for, including Comfort and Premier." },
+    ],
+  },
+  {
+    name: "Rent to own",
+    items: [
+      { q: "What is the Rent 2 Own program?",
+        a: "It lets you rent a car and own it at the end of an agreed period. It's a route into car ownership without needing past financial history." },
+      { q: "What does it cost to start?",
+        a: "A $1,000 down payment plus the first week's rental, paid upfront." },
+      { q: "Does it include insurance, registration and maintenance?",
+        a: "No. On rent to own, insurance, registration and maintenance are the customer's responsibility. We'll go through what each will cost you before you commit." },
+      { q: "Can I qualify with poor financial history?",
+        a: "Yes. Rent to own doesn't require past financial history, which makes it accessible to people who can't get conventional finance." },
+      { q: "Which vehicles are available?",
+        a: "A wide range of the fleet. See the rent to own page for what's ready now, or call us about a specific car." },
+      { q: "Can I drive Uber with a rent to own car?",
+        a: "Yes. It's become a popular alternative to buying, because there's no deposit-sized loan, no credit check and no long bank contract." },
+    ],
+  },
+  {
+    name: "Vans, utes and larger vehicles",
+    items: [
+      { q: "What types of vans are available?",
+        a: "One tonne and two tonne vans. Check the fleet page for what's currently available, or call us." },
+      { q: "Why do people rent vans from you?",
+        a: "Mostly for delivery and courier work, where a van pays for itself. Unlimited kilometres matter more here than on any other vehicle we rent." },
+      { q: "What's available for families or UberXL drivers?",
+        a: "Seven seaters, suitable for UberXL fares as well as school runs and the weekly shop." },
+      { q: "What are the benefits of driving UberXL?",
+        a: "Access to larger fares. Bigger groups and airport runs with luggage pay more, and they're trips a five seater has to decline." },
+      { q: "What types of utes are available?",
+        a: "Utes with aluminium trays, suited to trade and work use. All come serviced and reliable." },
+      { q: "Is maintenance included on utes and vans?",
+        a: "Yes, the same as the rest of the fleet. Servicing and repairs are ours." },
+    ],
+  },
+  {
+    name: "Referrals",
+    items: [
+      { q: "How does the referral program work?",
+        a: "Refer a new customer and you get a discount on your next week's rental." },
+      { q: "What are the tiers?",
+        a: "One referral gives you $50 off your next week. Two referrals gives you $100 off." },
+      { q: "Can I combine referral discounts?",
+        a: "Yes, up to a maximum of $100 off a single week's rental." },
+      { q: "Does it apply to van rentals?",
+        a: "Yes, the referral program applies across the fleet, vans included." },
+    ],
+  },
+];
+
+export const HOME_FAQS: FaqItem[] = [
+  FAQ_GROUPS[0].items[0],
+  FAQ_GROUPS[0].items[1],
+  FAQ_GROUPS[0].items[2],
+  FAQ_GROUPS[0].items[6],
+  FAQ_GROUPS[0].items[4],
+  FAQ_GROUPS[0].items[8],
+];
+
+export const RENT_TO_OWN_FAQS: FaqItem[] = FAQ_GROUPS[2].items;
