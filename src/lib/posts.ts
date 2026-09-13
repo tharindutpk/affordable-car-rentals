@@ -1,5 +1,9 @@
+import type { SiteImageRef } from "@/lib/images";
+
 export interface Post {
   slug: string;
+  /** Header and card image. Leave undefined for the placeholder. */
+  image?: SiteImageRef;
   title: string;
   category: string;
   excerpt: string;
@@ -19,6 +23,7 @@ export const POSTS: Post[] = [
   {
     slug: "benefits-of-uber-green",
     title: "The benefits of Uber Green",
+    // image: { src: "/photos/uber-green.jpg", alt: "A hybrid Toyota Prius C parked outside the West Ryde yard" },
     category: "Rideshare",
     excerpt:
       "Uber Green trips pay the same as UberX but go to hybrid and electric drivers first. What it is, where it runs, and how to become eligible without applying for anything.",
@@ -49,6 +54,7 @@ export const POSTS: Post[] = [
   {
     slug: "rent-to-own-a-car-for-uber",
     title: "How to rent to own a car for Uber",
+    // image: { src: "/photos/rent-to-own.jpg", alt: "Customer receiving keys to a rent to own vehicle" },
     category: "Rent to own",
     excerpt:
       "Whether to buy, rent to own, or use the car you already have. The costs, the credit question, and what drivers actually earn in Sydney.",

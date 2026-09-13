@@ -1,8 +1,10 @@
 import Link from "next/link";
 import VehicleCard from "@/components/VehicleCard";
 import VehiclePhoto from "@/components/VehiclePhoto";
+import SiteImage from "@/components/SiteImage";
 import { FinalCta, Faq, IncludedList, Steps, Visit } from "@/components/blocks";
 import { CATEGORIES } from "@/lib/categories";
+import { SITE_IMAGES } from "@/lib/images";
 import { HOME_FAQS } from "@/lib/faqs";
 import { PURPOSES, site } from "@/lib/site";
 import { getAllVehicles, lowestRate } from "@/lib/vehicles";
@@ -201,13 +203,20 @@ export default async function HomePage() {
               <Link className="btn btn-light" href="/rent-to-own">How rent to own works</Link>
             </div>
           </div>
-          <div className="shot shot-ph dark" style={{ height: 330, borderRadius: "var(--r)" }} />
+          <SiteImage
+            image={SITE_IMAGES.rentToOwn}
+            className="dark"
+            style={{ height: 330, borderRadius: "var(--r)" }}
+          />
         </div>
       </section>
 
       <section className="sec">
         <div className="wrap band">
-          <div className="shot shot-ph" style={{ height: 300, borderRadius: "var(--r)" }} />
+          <SiteImage
+            image={SITE_IMAGES.insuranceReplacement}
+            style={{ height: 300, borderRadius: "var(--r)" }}
+          />
           <div>
             <h2>Car in the smash repairer?</h2>
             <p className="lede" style={{ marginTop: "1.1rem" }}>

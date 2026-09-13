@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SiteImage from "@/components/SiteImage";
 import { Crumb, Visit } from "@/components/blocks";
+import { SITE_IMAGES } from "@/lib/images";
 import { site } from "@/lib/site";
 import { getAllVehicles } from "@/lib/vehicles";
 
@@ -59,7 +61,10 @@ export default async function AboutPage() {
               knows every car in the yard.
             </p>
           </div>
-          <div className="shot shot-ph" style={{ height: 330, borderRadius: "var(--r)" }} />
+          <SiteImage
+            image={SITE_IMAGES.aboutYard}
+            style={{ height: 330, borderRadius: "var(--r)" }}
+          />
         </div>
       </section>
 

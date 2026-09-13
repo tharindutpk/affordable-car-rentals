@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import SiteImage from "@/components/SiteImage";
 import { Crumb, FinalCta } from "@/components/blocks";
 import { POSTS, getPost } from "@/lib/posts";
 
@@ -46,7 +47,12 @@ export default async function PostPage({
       </section>
 
       <section className="wrap" style={{ paddingBottom: 20 }}>
-        <div className="shot shot-ph" style={{ height: 380, borderRadius: "var(--r)" }} />
+        <SiteImage
+          image={post.image}
+          sizes="(max-width: 1180px) 100vw, 1180px"
+          priority
+          style={{ height: 380, borderRadius: "var(--r)" }}
+        />
       </section>
 
       <section className="sec-tight">

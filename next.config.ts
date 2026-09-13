@@ -1,9 +1,11 @@
 import type { NextConfig } from "next";
 
 const config: NextConfig = {
-  // Standalone output keeps the production image small on a DigitalOcean
-  // droplet. App Platform works either way.
-  output: "standalone",
+  // Standalone output bundles a self-contained server, which is what the
+  // droplet and Docker paths run. App Platform runs `npm start` (next start),
+  // and Next warns that next start does not work with standalone output — so
+  // this is opt-in via BUILD_STANDALONE=true rather than always on.
+  output: process.env.BUILD_STANDALONE === "true" ? "standalone" : undefined,
   images: {
     remotePatterns: [{ protocol: "https", hostname: "cdn.sanity.io" }],
     formats: ["image/avif", "image/webp"],

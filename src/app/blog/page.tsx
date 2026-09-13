@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SiteImage from "@/components/SiteImage";
 import { Crumb, FinalCta } from "@/components/blocks";
 import { POSTS } from "@/lib/posts";
 
@@ -26,7 +27,11 @@ export default function BlogPage() {
         <div className="wrap" style={{ display: "grid", gap: 28 }}>
           {POSTS.map((p) => (
             <article className="postcard" key={p.slug}>
-              <div className="shot shot-ph" style={{ height: 230, borderRadius: 0 }} />
+              <SiteImage
+                image={p.image}
+                sizes="(max-width: 940px) 100vw, 430px"
+                style={{ height: 230, borderRadius: 0 }}
+              />
               <div className="postcard-body">
                 <p className="meta mb0">{p.category}</p>
                 <h2 style={{ fontSize: "1.6rem", margin: ".4rem 0 .7rem" }}>
